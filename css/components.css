@@ -1,0 +1,79 @@
+.go-top{
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 45px;
+height: 45px;
+align-items: center;
+opacity: 0;
+cursor: pointer;
+border: none;
+background-color:white;
+border-radius: 50px;
+transition: 1s;
+padding: 15px;
+}
+.go-top:hover{
+	opacity: 1;
+}
+
+/**/
+
+.slider { /* this is the full view of the slider*/
+    width: calc(100% - 100px);
+    margin: 10px auto;
+}
+.slick-slide {
+    margin: 0px 10px; /* this is to adjust the distance of each content*/
+}
+.slick-active {
+      opacity: 1;/* set the opacity of active slide*/
+}
+.content{
+}
+
+.client{
+	display: grid;
+	grid-template-columns: 120px 1fr;
+}
+.client-avatar{
+	position: relative;
+	justify-items: left;
+	display: grid;
+}
+.client-avatar img{
+	width: 80%; border-radius: 100px;
+}
+.testimonial{
+}
+.testimonial h3,.testimonial p, .stars{
+	margin: 5px; padding: 0;
+}
+
+.testimonial p{
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 17px;
+	line-height: 1.6;
+}
+.stars{
+	color: #f39c12;
+}
+
+.qoute{
+	font-family: Georgia, serif;
+	top: 0; right: 5px;
+	position: absolute;
+	font-size: 100px;
+	line-height: 0.9;
+	color: #fb4602;
+
+}
+
+
+.btn-small{
+	background-color: #3498db;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+}

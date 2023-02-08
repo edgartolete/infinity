@@ -1,0 +1,19 @@
+.btn-primary,.btn-secondary:hover, .getqoute, .spacer{
+	background-color: #3498db;
+}
+
+.btn-primary:hover,.btn-secondary, .nav-menu a:hover, .nav-menu .active, .grid-3 > div a:hover, .grid-footer i, .column a:hover {
+	color: #3498db;
+}
+
+.btn-secondary, .btn-primary:hover, .column a:hover, .navbar-2{
+background-color: white;
+}
+
+.social-links i, .btn-primary, .grid-footer, .getqoute, .toggle-content a, .toggle-menu > div > div > a,.toggle-menu, .nav-menu a,.btn-secondary:hover{
+	color: white;
+}
+
+footer, .navbar-2 .nav-menu a, .navbar-2 .nav-menu i, .grid-3 > div a{
+color: black;
+}

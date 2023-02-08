@@ -1,0 +1,42 @@
+@font-face {
+	font-family: Poppins;
+	src: url('fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: PoppinsBold;
+	src: url('fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+	font-family: PoppinsExtraBold;
+	src: url('fonts/Poppins-ExtraBold.ttf');
+}
+body{
+	font-family: Poppins;
+}
+
+h1{
+	font-size: 36px;
+	margin: 10px;
+}
+h4{
+	font-weight: bold;
+	color: #3498db;
+	padding: 10px;
+}
+p{
+	padding: 10px;
+}
+input, textarea{
+	font-family: Poppins;
+	font-size:16px;
+}
+
+.nav-menu a, span .navbar-2 .nav-menu a, .nested div:nth-child(1){
+	font-family: PoppinsBold;
+}
+
+.toggle-menu > div > div > a{
+	font-family: PoppinsExtraBold;
+}
+
